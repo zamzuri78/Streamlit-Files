@@ -68,6 +68,7 @@ st.sidebar.markdown("""
 # --- Stop if no data ---
 if df is None:
     st.warning("Hi! Please upload a file or provide a valid URL to begin.")
+    st.info("📱 On mobile devices, tap the >>  menu (top left) to open the sidebar and upload your file.")
     st.stop()
 else:
     st.session_state.df = df.copy()
@@ -234,3 +235,4 @@ with tab4:
                 st.dataframe(df.tail())
             else:
                 st.dataframe(pd.concat([df.head(), df.tail()]))
+
