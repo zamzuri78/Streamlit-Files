@@ -5,4 +5,7 @@ https://tinyurl.com/zam-live-predict
 
 https://tinyurl.com/simpledc
 
+https://gelak-gpt2.streamlit.app/
+
+
 
